@@ -1,0 +1,487 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.container{
+    max-width: 80%;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 -15px;
+}
+.col-4{
+    width: 33.3333%;
+    padding: 0 15px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.col-2{
+    width: 16.6666%;
+    padding: 0 15px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+/* ////////////////////header/////////////////////////////// */
+header{
+    width: 100%;
+    padding: 37px 0;
+    background: #EEEFF1;
+    position: fixed;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav ul{
+    display: flex;
+    align-items: center;
+    column-gap: 42px;
+}
+
+.header__nav ul li a{
+    font-weight: 400;
+    cursor: pointer;
+    letter-spacing: 1.6px;
+    transition: 0.5s ease-in;
+  
+
+}
+
+.header__nav ul li a:hover{
+    color: #34547A;
+    text-decoration: underline;
+}
+
+/* //////////////////////header/////////////////////////////// */
+
+
+
+
+
+
+/* //////////////////////дизайн и вестка/////////////////////////////// */
+#main{
+    height: 100vh;
+    background: #EEEFF1;
+
+    
+}
+
+#main .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main__box1{
+    display: flex;
+    justify-content: center;
+}
+
+#main p{
+    color: #727272;
+    font-weight: 400;
+    margin-bottom: 60px; 
+}
+
+#main button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 25px 41px;
+    background: #34547A;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+}
+
+.col-6-first{
+    margin: auto 0;
+}
+
+/* //////////////////////дизайн и вестка/////////////////////////////// */
+
+
+
+
+
+
+/* //////////////////////.....обо мне...../////////////////////////////// */
+#me{
+    background: #F9F9F9;
+}
+.life h2{
+    padding: 50px 0;
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.life p{
+    margin: 0 auto;
+    width: 40%;
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 164.063%; 
+    margin-bottom: 100px;
+}
+
+
+
+
+
+/* //////////////////////.....обо мне...../////////////////////////////// */
+
+
+
+
+/* //////////////////////.....40+ проектов...../////////////////////////////// */
+
+#proect{
+    padding: 50px 0;
+    background:#34547A;
+}
+
+.proect__box{
+    min-width: 100%;
+    display: flex;
+    column-gap: 10px;
+}
+
+.proect__img img{
+    width: 40px;
+    height: 40px;
+}
+
+.proect__info{
+    color: white;
+}
+
+.proect__info h3{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.proect__info p{
+    font-weight: 400;
+}
+
+
+/* //////////////////////.....40+ проектов...../////////////////////////////// */
+
+
+
+
+
+
+/* //////////////////////.....мои навыки...../////////////////////////////// */
+
+#experience{
+    background: #F9F9F9;
+}
+
+
+.wrap__ph{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 80px;
+    font-family:'roboto';
+   }
+   
+   .photo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+   }
+   
+   .tobi{
+    width: 250px;
+    height: 250px;
+   }
+   
+   .zolo{
+    width: 445px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #C4C4C4;
+   }
+   
+
+   .zolo2{
+    width: 349.357px;
+    height: 4px;
+    transform: rotate(-0.06deg);
+    background-color:#34547A;
+  }
+/* //////////////////////.....мои навыки...../////////////////////////////// */
+
+
+/* //////////////////////.....как я работаю...../////////////////////////////// */
+
+#my{
+    background: #EEEFF1;
+    padding: 100px 0;
+}
+
+
+#my button img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-top: -350px;
+    position: absolute;
+    right: 590px;
+ 
+}
+
+
+.play2 img{
+    width: 100%;
+}
+
+
+/* //////////////////////.....как я работаю...../////////////////////////////// */
+
+
+/* //////////////////////.....фото с глазом...../////////////////////////////// */
+
+.view__row {
+    margin: 0;
+}
+.view__col-3 {
+    padding: 0;
+    transition: .5s;
+    overflow: hidden;
+    position: relative;
+}
+.view__col-3 .view__img1 {
+    max-width: 100%;
+    height: 100%;
+}
+.view__box {
+    background: rgba(52, 84, 122, 0.8);
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    opacity: 0; 
+}
+.view__img2 {
+    width: 100px;
+    height: 100px;
+}
+.view__col-3:hover .view__box {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    transition: 1s;
+    
+}
+
+
+ /* //////////////////////.....фото с глазом...../////////////////////////////// */
+
+
+
+  /* //////////////////////.....microsoft....////////////////////////////////// */
+
+.proect__row{
+    min-width: 100%;
+    display: flex;  
+    align-items: center;
+    padding: 100px 0;
+}
+
+.mic__col-2{
+    width: 190px;
+    height: 20px;
+}
+
+.mic__col-2 img{
+    width: 155px;
+    height: 80px;
+}
+
+
+ /* //////////////////////.....microsoft....////////////////////////////////// */
+
+
+
+ 
+ /* //////////////////////.....хотите веб-сайт?....////////////////////////////////// */
+#me{
+    background: #EEEFF1;
+    padding: 100px 0;
+}
+
+.me__row{
+    padding: 10px;
+}
+
+.me__col-6{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+
+
+.main__box p{
+    padding: 30px 0;
+}
+
+.input1 input{
+    padding: 17px 161px 18px 20px;
+    display: flex;
+    width: 255px;
+    height: 50px;
+    position: relative;
+ }
+.input{
+   
+    color: #5F5D5D;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    height: 55px;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.input2 input{
+    width: 540px;
+    height: 175px;
+    padding: 17px 438px 143px 20px ;
+    
+}
+
+.input2{
+    padding: 70px;
+}
+
+#me button{
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 25px 41px;
+    background: #34547A;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+}
+
+
+
+
+ 
+ /* //////////////////////.....хотите веб-сайт?....////////////////////////////////// */
+
+
+
+
+
+   /* //////////////////////.....futter....////////////////////////////////// */
+
+#futter{
+    padding: 50px 0;
+    background: #34547A;
+}
+
+.futter__col-6 h3 {
+    text-align: center;
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 500;
+    
+}
+
+.futter__col-6 p {
+    text-align: center;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+
+.futter__col-6 .vk{
+    width: 50%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.futter__col-6 img{ 
+    width: 43.75px;
+    height: 40px;
+}
+
+     
+  /* //////////////////////.....futter....////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
